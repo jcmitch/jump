@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.canvasWrap {
+    display: inline-block;
+    position: relative;
+}
+
+h1,
+h3 {
+    margin: 10px 0 0 0;
+}
+
+#backgroundCanvas {
+    background: url('../images/jump/background.png');
+    background-size: cover;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+#jumpCanvas {
+    border: 1px solid #000;
+    left: 0;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+}
